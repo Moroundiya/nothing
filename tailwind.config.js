@@ -15,7 +15,7 @@ export default {
         'camera': "url('./src/assets/images/CAMERA.png')",
         'airpod-bg': "url('/airpod-bg.png')",
         'enhance': "url('/Enhanced_Performance.png')",
-        'water': "url('/Water_Resistence.webp')",
+        'water': "url('/Water_Resistence.png')",
         'press': "url('/Press_Control.png')",
         'overlay-gradient': "linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);",
         'interface-bg': "url('/interface.png')",
