@@ -13,6 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './assets/components/Footer';
 // import { useLayoutEffect } from 'react';
+import Preload from './assets/components/Preload';
 
 
 
@@ -33,6 +34,7 @@ function App() {
     <>
       <Header />
       <Features />
+      <Preload />
       <PreOrder />
       <Tabs />
       <Nothing />
