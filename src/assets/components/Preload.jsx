@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Preload() {
     return (
         <>
+
             <div className='w-full h-full bg-enhance bg-cover bg-no-repeat hidden' >
 
             </div>

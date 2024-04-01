@@ -16,9 +16,6 @@ import Footer from './assets/components/Footer';
 import Preload from './assets/components/Preload';
 
 
-
-
-
 function App() {
 
   useEffect(() => {
