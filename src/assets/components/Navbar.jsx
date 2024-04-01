@@ -20,7 +20,7 @@ export default function Navbar({ callback }) {
     }, [mobile])
 
     return (
-        <div className='w-full h-auto bg-white py-5 px-4 md:px-8 flex items-center justify-between backdrop-blur-xl fixed left-0 top-0 z-50 lg:px-16 2xl:px-44 lg:py-8'>
+        <div className='w-full h-auto bg-white py-5 px-4 md:px-8 flex items-center justify-between backdrop-blur-xl fixed left-0 top-0 z-50 lg:px-16 lg:py-8'>
             <h1 className='font-[Ndot] text-2xl lg:text-3xl'>NOTHING</h1>
             <div className='text-[1.05rem] font-[Figtree] text-[#000] hidden justify-center w-[400px] space-x-5 md:flex '>
                 <a href="#" className='cursor-pointer transition-all duration-[0.35s] w-1/5 text-center block hover:text-[#0f0e0e] hover:font-semibold'>Phone</a>
