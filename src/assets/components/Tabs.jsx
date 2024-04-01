@@ -40,14 +40,14 @@ function Tabs() {
     return (
 
         <div className={`h-[650px] lg:h-[1000px] w-full pb-10 pr-4 md:pr-8 lg:pr-16 relative bg-cover bg-${content} bg-center bg-no-repeat flex items-end justify-end flex-col lg:pb-[8rem] tab-parent`}>
-            <ul className='absolute top-10 left-4 md:left-6 text-[1.15rem] lg:top-[6rem] lg:left-[4.1rem] 2xl:left-[6rem] font-[figtree] lg:text-[1.25rem] xl:text-[1.3rem] text-[#6D6D6D] font-medium  z-20 transition-all'>
+            <ul className='absolute top-10 left-4 md:left-6 text-[1.12rem] sm:text-[1.15rem] lg:top-[6rem] lg:left-[4.1rem] 2xl:left-[6rem] font-[figtree] lg:text-[1.25rem] xl:text-[1.3rem] text-[#6D6D6D] font-medium  z-20 transition-all'>
                 <CreateList onChange={() => handleClick('enhance')} classn={(content === 'enhance') ? 'enhance-active py-1 lg:py-2 pl-3 cursor-pointer' : 'py-1 lg:py-2 pl-3 cursor-pointer tab-menu'}>Enhanced Performance</CreateList>
                 <CreateList onChange={() => handleClick('water')} classn={(content === 'water') ? 'water-active py-1 lg:py-2 pl-3 cursor-pointer' : 'py-1 lg:py-2 pl-3 cursor-pointer tab-menu'}>Water Resistance</CreateList>
                 <CreateList onChange={() => handleClick('press')} classn={(content === 'press') ? 'press-active py-1 lg:py-2 pl-3 cursor-pointer' : 'py-1 lg:py-2 pl-3 cursor-pointer tab-menu'}>Press Control</CreateList>
             </ul>
 
-            <h1 className='text-[#D1D1D1] font-[Ndot] text-[1.9rem] lg:text-6xl tab-parent'>{text[getImg].title}</h1>
-            <p className='text-[#B0B0B0] font-[Figtree] w-11/12 md:w-3/5 lg:w-3/5 text-right mt-5 lg:text-xl tab-parent'>{text[getImg].info}</p>
+            <h1 className='text-[#D1D1D1] font-[Ndot] text-[1.58rem] sm:text-[1.9rem] lg:text-6xl tab-parent'>{text[getImg].title}</h1>
+            <p className='text-[#B0B0B0] text-sm font-[Figtree] w-11/12 md:w-3/5 lg:w-3/5 text-right mt-5 lg:text-xl tab-parent'>{text[getImg].info}</p>
         </div>
     )
 }
