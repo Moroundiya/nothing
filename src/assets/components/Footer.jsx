@@ -1,10 +1,10 @@
 import React from 'react';
 import footerlogo from '../images/NOTHING.png';
-import instagram from '../images/instagram.png';
-import youtube from '../images/youtube.png';
-import tiktok from '../images/tiktok.png';
-import discord from '../images/discord.png';
-import twitter from '../images/x.png';
+import { FaInstagram } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FaTwitter } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -73,21 +73,22 @@ function Footer() {
                 </ul>
 
                 <div className='flex space-x-4'>
-                    <a href="">
-                        <img src={instagram} className='w-[35px] lg:w-auto' alt="Social" />
+                    <a href="" className='border border-[#888888] rounded-full p-[7px]'>
+                        <FaInstagram className='text-[#888888] text-xl ' />
                     </a>
-                    <a href="">
-                        <img src={youtube} className='w-[35px] lg:w-auto' alt="Social" />
+                    <a href="" className='border border-[#888888] rounded-full p-[7px]'>
+                        <AiOutlineYoutube className='text-[#888888] text-xl ' />
                     </a>
-                    <a href="">
-                        <img src={twitter} className='w-[35px] lg:w-auto' alt="Social" />
+                    <a href="" className='border border-[#888888] rounded-full p-[7px]'>
+                        <FaTwitter className='text-[#888888] text-xl ' />
                     </a>
-                    <a href="">
-                        <img src={tiktok} className='w-[35px] lg:w-auto' alt="Social" />
+                    <a href="" className='border border-[#888888] rounded-full p-[7px]'>
+                        <FaTiktok className='text-[#888888] text-xl ' />
                     </a>
-                    <a href="">
-                        <img src={discord} className='w-[35px] lg:w-auto' alt="Social" />
+                    <a href="" className='border border-[#888888] rounded-full p-[7px]'>
+                        <FaDiscord className='text-[#888888] text-xl ' />
                     </a>
+
                 </div>
             </div>
             <p className='bg-black text-[#888888] py-5 text-center lg:py-6 font-[Figtree] lg:text-lg text-[1.06rem]'>
