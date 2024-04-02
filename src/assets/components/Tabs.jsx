@@ -47,7 +47,7 @@ function Tabs() {
             </ul>
 
             <h1 className='text-[#D1D1D1] font-[Ndot] text-[1.58rem] sm:text-[1.9rem] lg:text-6xl tab-parent'>{text[getImg].title}</h1>
-            <p className='text-[#B0B0B0] text-sm font-[Figtree] w-11/12 md:w-3/5 lg:w-3/5 text-right mt-5 lg:text-xl tab-parent'>{text[getImg].info}</p>
+            <p className='text-[#B0B0B0] text-sm font-[Figtree] w-11/12 md:w-3/5 lg:w-3/5 text-right mt-5 lg:text-xl tab-parent 2xl:w-2/4'>{text[getImg].info}</p>
         </div>
     )
 }

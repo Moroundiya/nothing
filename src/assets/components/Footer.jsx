@@ -60,8 +60,11 @@ function Footer() {
                 </div>
             </footer>
 
-            <div className='h-auto px-4 md:px-8 py-8 w-full bg-black 2xl:px-36 lg:px-16 lg:py-12 font-[Figtree] xl:flex lg:space-y-3 justify-between'>
-                <img src={footerlogo} alt="logo" />
+            <div className='h-auto px-4 md:px-8 py-8 w-full bg-black 2xl:px-36 lg:px-16 lg:py-12 font-[Figtree] xl:flex lg:space-y-3 justify-between items-center'>
+                <div>
+                    <img src={footerlogo} className='w-[130px] h-[26px] block' alt="logo" />
+
+                </div>
                 <ul className='text-[#888888] space-y-1 my-8 lg:my-0 lg:flex lg:space-x-4 text-[1.06rem] sm:text-lg lg:space-y-0'>
                     <li>Privacy Policy</li>
                     <li>Terms of sale</li>
