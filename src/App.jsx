@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import Header from './assets/components/Header';
 import PreOrder from './assets/components/PreOrder';
 import Features from './assets/components/Features';
@@ -12,8 +12,10 @@ import News from './assets/components/News';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './assets/components/Footer';
+import { Tab } from './assets/components/Tab';
 // import { useLayoutEffect } from 'react';
 
+export const TabContext = createContext();
 
 function App() {
 
@@ -25,13 +27,14 @@ function App() {
     // AOS.refresh();
   }, []);
 
+  const [content, setContent] = useState('enhance');
 
   return (
-    <>
+    <TabContext.Provider value={{ content, setContent }}>
       <Header />
       <Features />
       <PreOrder />
-      <Tabs />
+      <Tab />
       <Nothing />
       <Dual />
       <EarBlack />
@@ -39,7 +42,9 @@ function App() {
       <Beta />
       <News />
       <Footer />
-    </>
+
+      {/* <Tab /> */}
+    </TabContext.Provider>
 
   )
 }

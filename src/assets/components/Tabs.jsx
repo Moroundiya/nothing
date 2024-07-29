@@ -11,6 +11,7 @@ function CreateList({ children, onChange, classn }) {
 function Tabs() {
 
     const [content, setContent] = useState('enhance');
+
     const [getImg, setGetImg] = useState(content);
 
     // let classNam;
