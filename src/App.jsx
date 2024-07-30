@@ -34,7 +34,7 @@ function App() {
       <Header />
       <Features />
       <PreOrder />
-      <Tab />
+      <Tabs />
       <Nothing />
       <Dual />
       <EarBlack />
